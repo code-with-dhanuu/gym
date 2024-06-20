@@ -1,0 +1,62 @@
+.div{
+    background-image: url(https://png.pngtree.com/background/20231030/original/pngtree-d-illustration-of-bodybuilding-equipment-and-dumbbells-on-a-fitness-background-picture-image_5787894.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+.form{
+   color: white;
+    background-color: transparent;
+    position: relative;
+    top: 150px;
+    box-shadow: 1px 1px 22px 3px white;
+    /* text-align: center; */
+    /* border: 1px solid black;  */
+     height: auto;
+    width: 500px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+.gen{
+    margin: 20px;
+}
+
+.headd{
+    text-align: center;
+    padding: 15px;
+}
+.inp{
+    margin: 10px;
+    width: 300px;
+    height: 40px;
+    transition: 0.5s;
+}
+.inp:hover{
+    transform: scale(1.1);
+}
+
+.nlabel{
+    font-weight: bold;
+    margin: 15px 15px;
+    height: 20px;
+    width: 80px;
+}
+
+.Add{
+    margin: 10px;
+}
+
+.btns{
+    background-color: orangered;
+    /* text-align: center; */
+    margin:20px 200px;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0px 20px;
+}
+.btns:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+}

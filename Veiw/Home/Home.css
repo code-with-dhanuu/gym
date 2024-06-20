@@ -1,0 +1,117 @@
+*{
+    /* overflow-x: hidden; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p{
+    font-size: large;
+}
+.homeimg{
+    height:700px;
+    display: flex;
+    width: 1520px;
+  background-color: black;
+    /* background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUXGBcXFxcXFRUXFxgXFxcdFxcYFxcdHSggGholHRcYITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDw0PDisZFRkrKysrKysrKy03KysrKys3Nys3Ky0rKysrKys3LSs3KysrKysrKysrLSsrKysrKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAJRABAQEAAQMCBgMAAAAAAAAAAAERAkFx8GGhITFRgcHxEpHh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDiwiqiRT0KCGrqAv2SriAokW0CIpaBiFW0DUxYaBTiEAQXARcQiCyF7EFAtOICFXzzzoagJoKKaSfX4FBNXUkAFEAi76ai5PJ/oFKIAYth3AwwQFogARdAIaJAXEKAtCroM1dSqgi00UIIoEIhoDXVLUBdKGAi2hIB2ImqAai0E00JAWRLSFBSlSgtNRaAGFAQVBcOUZgoFUQRdOSARcQUJVQoLDS+xfmAi0iBqEqyKIvJFoFnr9A0ASLh8wRcMJATWmV0C0wpARfcwwCJpFoJItq1LQBeKWgi0/iAmAsgCWrqQFA1BAxeIFEw0DApigsIiC6gQFiYsRRSIuAFSrOwEqKUDEUA0kQiC0sKfb3qiLEa89gTSEQAVAFxKYCxFiQFOIkBeIWAH7LABA1QEWoguhRRKUXAEip8kFpqKAaIoqCgEJCgi2lJgI1ONvS/ZDPXAEWmgYZ1DAQXf0gEixIoIuooIokQXE1aaoIsMBMWFSoLyhaGqIShAVFgAilARYgLaBAMTF0oILBAoCgsvZkqBQALBalUNU01BBUBaU0UMIJoCh3BC1TiBEKtAqLYYCLYU0BJBQTVoloLYUqApTQCQwhKCKYlgKFJ553QAJQRcEgEqpFUBdTQMSFUCUDQQXFy+f0DOtYlqIBqw1RBfVNBakigItWp8gVABF0hOQGBACJ/EW9wClAT8BF8/CCEF0Epi2poC2LKzAWLvxRNUXoQ0oIoAli4WiACRRSosBFADujWIAirYCahV+AIoIGpVAQwAXCABUWFURUiyAGCWgLKagLYpJ1TQRcElBQQFommgpABFoAAkBQSQFiEXARbVrIAAKikQL6EqUii1Yzq2AgKCKgC4kWxKC6SHGICnKl6JaCpQQFkAAsBQoCCRQUWRIAKmABUAFSACgAAIIv1BRcQABAFKACQEFiAoqACxd8yVBB//9k=); */
+}
+
+.mainimg{
+    margin-top: 110px;
+}
+.mimg{
+    height: 580px;
+    width: 600ox;
+}
+.head{
+    font-size: xx-large;
+    color: white;
+ margin: 190px  0px 10px 190px ;
+}
+.head1{
+    margin: 20px 190px;
+    color: white;
+}
+.head0{
+    margin: 20px ;
+    color: white;
+}
+/* .con{
+   
+  margin: 170px;
+ 
+} */
+.orange{
+    color: orangered;
+}
+.btnj{
+    color: white;
+    background-color: orangered;
+    padding: 10px 20px;
+    margin: 20px 20px 20px 190px;
+    border-radius: 10px;
+}
+.btnj:hover{
+    transform: scale(0.9);
+}
+.btnl{
+    color: white;
+    background-color:grey;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.btnl:hover{
+    transform: scale(0.9);
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.homeg{
+    background-color: rgb(43, 41, 41);
+    display: flex;
+    height:500px;
+    width: 1520px;
+}
+.imgt{
+    border-radius: 10px;
+    margin: 90px;
+}
+.cont{
+    color: white;
+     margin: 90px;
+}
+.btnf{
+    color: white;
+    background-color:orangered;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+.btnf:hover{
+    transform: scale(0.9);
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.plan{
+   padding: 40px;
+    display: flex;
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+.para{
+    margin: 20px  80px;
+}
+
+.pp{
+    background-color:  rgb(43, 41, 41);
+    padding: 20px;
+}
+
+.cardd{
+    display: flex;
+}

@@ -1,0 +1,24 @@
+.inpt{
+    margin: 0px 20px;
+    width: 250px;
+}
+.formc{
+    /* text-align: center; */
+    box-shadow: 1px 1px 22px 2px gray;
+    width: 300px;
+    margin: 200px 550px;
+}
+.btnS{
+    background-color: orangered;
+    /* text-align: center; */
+    margin:20px 95px;
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    border-radius: 0px 20px;
+}
+.btnS:hover{
+    background-color: transparent;
+    border: 1px solid orangered;
+}

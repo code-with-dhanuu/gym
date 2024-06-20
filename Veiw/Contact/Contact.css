@@ -1,0 +1,84 @@
+body{background-color: black;
+    margin-top: 50px;
+    margin-left: 250px
+}
+.oneclass{
+    margin: 10px 180px;
+     /* display:flex; */
+}
+.container{
+    position: relative; 
+    justify-content: center;
+   
+}
+.first{
+    color: rgb(249, 248, 248);
+    margin: 150px 0px 40px 360px;
+    /* text-align: center; */
+}
+.heeead{
+    text-align: center;
+    font-size: x-large;
+}
+.contactitem{
+    height: 500px;
+}
+span{
+   font-family: monospace;
+} 
+h3{
+   font-family: arial black;
+   color:white;
+} 
+
+.head5{
+    font-size: large;
+    color: black;
+} 
+.row{
+  background-image: url(https://media.gettyimages.com/id/625739874/photo/heavy-weight-exercise.jpg?s=612x612&w=0&k=20&c=B1uzJW1DBei2Rx5hnt139tt9dt3L7TbKrpgwbMR-LrI=);
+    color:white;
+    /* font-family:tahoma; */
+    box-shadow: 1px 1px 12px 1px grey ;
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 570px;
+    margin: 10px;
+}
+.label{
+    height: 40px;
+    width: 450px;
+    margin: 10px;
+    background-color: rgb(237, 239, 241);
+   border: 1px solid grey; 
+}
+
+
+.label:hover{
+    border: 2px solid  ;
+    box-shadow: 0px 0px 1px 0px skyblue;
+    /* transform: scale(1.1); */
+}
+.int{
+    height: 80px;
+    width: 450px;
+    margin: 10px;
+    background-color: rgb(237, 239, 241);
+    border: 1px solid grey;
+}
+.btn{
+    font-size: larger;
+   padding: 10px 30px;
+   margin: 10px;
+    background-color:orangered;
+    border-radius: 30px;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: orangered;
+    border: 1px solid orangered8;
+}

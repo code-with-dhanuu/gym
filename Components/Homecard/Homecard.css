@@ -1,0 +1,28 @@
+.hc{
+    border-radius: 30px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(72, 69, 69);
+    margin: 30px;
+    transition: 0.5s;
+}
+.hc:hover{
+    background-color: orangered;
+    transform: scale(1.1);
+}
+
+.carimg{
+    margin: 20px;
+    height: 80px;
+}
+
+.heading{
+    color: white;
+    margin: 0px 20px;
+}
+
+.des{
+    color: white;
+    margin: 9px 20px;
+}
