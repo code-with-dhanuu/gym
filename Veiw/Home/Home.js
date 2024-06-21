@@ -7,7 +7,10 @@ import barbell from './dumble.png'
 import yoga from './yoga.png'
 import body from './body.png'
 import loss from './loss.png'
-
+import crown from './crown.png'
+import heart from './heart.png'
+import { Plan } from '../../Components/Plan/Plan'
+import { Plans } from '../../Components/Plan/Plan'
 export function Home(){
     return(
 <>
@@ -22,7 +25,7 @@ export function Home(){
 
 <h2 className='head1'>Get Healthy Body With Perfect Exercise</h2>
 
-<p className='head1'>Empower your journey to peak fitness. Build a stronger body and transform your life  with our expert support and guidence</p>
+<p className='head1 p'>Empower your journey to peak fitness. Build a stronger body and transform your life  with our expert support and guidence</p>
 
 <button  className='btnj'>JOIN US</button><button className='btnl'>Learn More</button>
 </div>
@@ -40,8 +43,8 @@ export function Home(){
    </div>
 <div className='cont'>
 <h1>Get Ready To Reach Your Fitness Goals</h1>
-<p>Ditch the excuses, grab your motivation backpack! "Get Ready To Reach Your Fitness Goals" isn't just a title, it's a battle cry. This guide is your personal trainer, cheerleader, and goal-crushing buddy rolled into one. We'll break down your aspirations into bite-sized.</p>
-<p>Get ready to conquer your doubts, rewrite your limits, and finally claim the healthier, happier you!</p>
+<p className='p'>Ditch the excuses, grab your motivation backpack! "Get Ready To Reach Your Fitness Goals" isn't just a title, it's a battle cry. This guide is your personal trainer, cheerleader, and goal-crushing buddy rolled into one. We'll break down your aspirations into bite-sized.</p>
+<p className='p'>Get ready to conquer your doubts, rewrite your limits, and finally claim the healthier, happier you!</p>
 <button className='btnf'>Free Trial Now</button>
 </div>
 
@@ -59,23 +62,17 @@ Stop searching, start thriving! We've handpicked programs just for you.<br/> Unl
 <Homecard img={body} head="Body Building" des="ewreytukl,mnbgfvdcsxa"/>
 <Homecard img={loss} head="Weight Loss" des="ewreytukl,mnbgfvdcsxa"/>
 </div>
-
-<div>
-    <h2>Choose The Best Plan</h2>
-    <h3>Ready To Your Journey Now WithUs</h3>
-
-    <div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-            
-        </div>
-    </div>
 </div>
+<div className='pland'>
+    <h2 className='h2'>Choose The Best Plan</h2>
+    <h3 className='ready'>Ready To Your Journey Now WithUs</h3>
+
+   <div className='planss' >
+    <Plan pimg={heart} headd="BASIC PLAN" Prizze="₹ 122" hour="xcghjkl" coache="ssdfghjk" access="dfghjk" />
+    <Plans pimg={crown} headd="BASIC PLAN" Prizze="₹ 122" hour="xcghjkl" coache="ssdfghjk" access="dfghjk" />
+    <Plan pimg={barbell} headd="BASIC PLAN" Prizze="₹ 122" hour="xcghjkl" coache="ssdfghjk" access="dfghjk" />
+  
+   </div>
 </div>
 </>
 

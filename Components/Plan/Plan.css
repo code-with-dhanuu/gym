@@ -1,0 +1,85 @@
+*{margin: 0px; padding: 0px;}
+.plmain{
+    margin: 30px;
+}
+.plcard{
+    background-color: rgb(68, 64, 64);
+    border: 1px solid black;
+    height: auto;
+    width: 350px;  
+    padding: 20px;
+    margin: 100px 30px;
+    border-radius: 5px;
+}
+
+.pop{
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+position: absolute;
+top: -23px;
+margin-left: 50px;
+}
+.placard{
+    background-color: orangered;
+    border: 1px solid black;
+    height: auto;
+    width: 350px;  
+    padding: 20px;
+    margin: 60px 30px;
+    border-radius: 5px;
+    transition: 1s;
+    position: relative;
+}
+.placard:hover{
+    transform: scale(1.1);
+}
+.plcard:hover{
+    background-color: orangered;
+    
+}
+
+.pimg {
+    height: 100px;
+    padding: 10px;
+}
+.plimg {
+    height: 100px;
+    padding: 10px;
+    margin: 40px 0px 0px 0px;
+}
+.headdd{
+    font-size: 20px;
+    margin: 30px 0px;
+}
+.pheaddd{
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.Prizze{
+    font-size: 40px;
+    margin: 10px;
+}
+.pPrizze{
+    font-size: 40px;
+    margin: 30px 10px;
+}
+.co{
+    height: 30px;
+    margin: 5px 10px;
+}
+
+.join{
+    width: 310px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 150px;
+    border-radius: 5px;
+}
